@@ -167,9 +167,17 @@
 
 
 // ***********************************************---12---****************************************************
+var myArraynumber=[];
 
+for(var i=0;i<7;i++){
 
-
+   var userInputNumber=Number(prompt("number"));
+   myArraynumber[i]= userInputNumber;
+    if(myArraynumber[i]%2!=0){
+        console.log(myArraynumber[i]);
+    }
+}
+console.log(myArraynumber);
 
 
 

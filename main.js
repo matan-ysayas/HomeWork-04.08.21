@@ -167,25 +167,87 @@
 
 
 // ***********************************************---12---****************************************************
-var myArraynumber=[];
 
-for(var i=0;i<7;i++){
 
-   var userInputNumber=Number(prompt("number"));
-   myArraynumber[i]= userInputNumber;
-    if(myArraynumber[i]%2!=0){
-        console.log(myArraynumber[i]);
-    }
-}
-console.log(myArraynumber);
+
+
+
+
+
+
+
+
+// var myArraynumber=[];
+
+// for(var i=0;i<7;i++){
+
+//    var userInputNumber=Number(prompt("number"));
+//    myArraynumber[i]= userInputNumber;
+//     if(myArraynumber[i]%2!=0){
+//         console.log(myArraynumber[i]);
+//     }
+// }
+// console.log(myArraynumber);
 
 
 
     
 
+// *********************************************---13---***************************************************************
+
+
+
+
+// var random=["hi",5,6,"matan",8,"good"];
+// for(i=0;i<random.length;i++){
+// if(random[i]*0!=0){
+//     random[i]="not_number"
+// }
+// }
+// console.log(random);
+
+
+// ******************************************---14---***********************************************************
+
+
+//  var counter=0;
+//  myArray=[];
+//  while (counter<10) {
+//      usernumber=Number(prompt("enter number"));
+//      if(usernumber%2==0){
+//      myArray[counter]=usernumber
+//       counter++
+//     }
+//  }
+// console.log(myArray);
+
+
+
+// **************************************************---15---*****************************************************
+
+
+
+var hight=Number(prompt("enter number"));
+var width=Number(prompt("enter number"));
+console.log(hight*width);
+console.log((hight*2)+(width*2));
 
 
 
 
 
-
+// *******************************************************---16---*************************************************
+ 
+var firstNumber;
+var secondNumber;
+var thirdNumber;
+firstNumber=Number(prompt("enter first number"));
+secondNumber=Number(prompt("enter second number"));
+thirdNumber=Number(prompt("enter third number"))
+if(firstNumber>secondNumber&&secondNumber>thirdNumber){
+console.log("סדר יורד")}
+else if(thirdNumber>secondNumber&&secondNumber>firstNumber){
+    console.log("סדר עולה");}
+else {
+    console.log("אין סדר");
+}
